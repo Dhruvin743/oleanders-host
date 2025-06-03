@@ -45,6 +45,7 @@
       height: 1.5rem;
       background: url('/oleanders-host/assets/icons/chevron-right.svg') center
         center no-repeat;
+      rotate: 180deg;
       transition: all 0.3s ease-in-out;
     }
   }
@@ -58,7 +59,7 @@
 
     &::before {
       left: 1.5rem;
-      rotate: 180deg;
+      rotate: 0deg;
     }
   }
 }
