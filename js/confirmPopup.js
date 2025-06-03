@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (backBtn) {
       backBtn.addEventListener('click', () => {
         closePopup();
-        window.location.href = '/index.html';
+        window.location.href = '/oleanders-host/index.html';
       });
     }
 
